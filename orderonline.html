@@ -1,0 +1,357 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Oreder</title>
+    <style>
+      body {
+          background-image: url("https://static.wixstatic.com/media/0b340f_e53fe97ebe254601a8c44e1da553019c~mv2.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-top: 40px;
+        color: white;
+       
+      }
+
+      header {
+        background: #000;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 60px;
+        margin-top: 40px;
+        height: 50px;
+        margin-right: 50px;
+      }
+
+      .a {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .logo {
+        font-size: 24px;
+        font-weight: bold;
+        padding-left: 100px;
+      }
+
+      .display {
+        display: flex;
+        gap: 15px;
+      }
+
+      .body-box {
+        width: 900px;
+      }
+      .box {
+        background-color: black;
+        height: 200px;
+        width: 500px;
+        border: 1px solid white;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 20px;
+
+        border: 1px solid white;
+      }
+
+      .back-ground {
+        background-color: black;
+        width: 1760px;
+      }
+      .margin {
+        margin-left: 20px;
+      }
+
+      .padding{
+       padding-top: 35px;
+      }
+
+      .grid {
+       display: grid;
+       grid-template-columns: 1fr 1fr 1fr;
+      }
+
+      .btn{
+        width: 140px;
+        height: 30px;
+        border-radius: 15px;
+        background-color: #000;
+        color: white;
+        border: 1px solid white;
+        margin-bottom: 30px;
+        margin-top: 10px;
+      }
+
+      .btn2{
+        width: 140px;
+        height: 40px;
+       background-color: #000;
+        color: white;
+      }
+
+           .btn3{
+        width: 140px;
+        height: 40px;
+       background-color: #000;
+        color: white;
+        margin-top: 20px;
+        margin-left: 100px;
+      }
+
+      .border{
+        border: 1px solid white;
+      }
+      .border2{
+        border: 1px solid gray;
+      }
+
+      .bg{
+        background-color: #0000001A;
+      }
+
+      .paddin2{
+        padding-top: 10px;
+      }
+
+.margin-right{
+  margin-right: 20px;
+}
+
+.margin2{
+  margin-left: 30px;
+}
+
+      nav a {
+        color: white;
+        text-decoration: none;
+        margin-left: 25px;
+        font-size: 16px;
+      }
+
+      nav a:hover {
+        color: #f4a261;
+      }
+
+      footer {
+        background: black;
+        color: white;
+        padding: 40px 60px;
+        width: 1560px;
+      }
+
+      .footer-container {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .footer-box h3 {
+        margin-bottom: 10px;
+      }
+
+      .footer-box p {
+        margin: 5px 0;
+      }
+
+      .svg{
+        color: white;
+      }
+      a{
+        color: white;
+        text-decoration: none;
+      }
+
+      .flex-section{
+        display: flex;
+      }
+
+      .button:hover{
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="logo">Melina</div>
+      <nav>
+        <div class="display">
+          <p>Menu</p>
+          <p>About</p>
+          <p>Book a Table</p>
+          <p>Contact</p>
+        </div>
+      </nav>
+    </header>
+    <div class="back-ground">
+      <div class="body-box">
+        <img
+          fetchpriority="high"
+          src="https://static.wixstatic.com/media/11062b_66d5dfedf5174e72a1b1df8e2310e383~mv2.jpg/v1/fill/w_860,h_320,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_66d5dfedf5174e72a1b1df8e2310e383~mv2.jpg"
+          alt=""
+          style="object-fit: cover; object-position: 50% 50%; width: 1760px"
+          data-ssr-src-done="true"
+        />
+        <div class="margin2">
+        <div class="margin">
+        <h1>Oreder Online</h1>
+        <p>
+          You can online! Browse our menu items and choose what you'd like to
+          order from us
+        </p>
+        <button class="btn">Accepting Orders</button><br />
+        <div class="bg">
+        <button class="btn2 border"  style="background-color: rgb(59, 57, 57);">Pickup</button><button class="btn2 border2">Delivery</button>
+        <div class="display paddin2">
+ 
+        <p>Pickup time:Up to 30 minutes<u>Change</u></p>
+
+        <p>Pickup Address:San Francisco, CA</p>
+        </div>
+        <div class="flex-section">
+        <h1>Menu</h1>
+           <button class="btn3 button:hover"  style="background-color: white; color: black; border: none;">Veiw cart (0)</button>
+        </div>
+       <div class="border3"></div>
+        <h1>Starters</h1>
+        </div>
+        </div>
+        <div class="grid margin-right">
+        <div class="box margin">
+          <h1>Soup of the Day</h1>
+          <p><a href="menubox.html">
+            I’m a dish description. Click “Edit Menu” to open the Restaurant
+            Menu editor and change my text.<p class="padding">$9.99</p>
+          </p>
+          </a>
+        </div>
+
+        <div class="box margin">
+          <h1>Bread with Olive Oil & Balsamic Dip</h1>
+          <p><a href="menubox.html">
+            I’m a dish description. Click “Edit Menu” to open the Restaurant
+            Menu editor and change my text.<p>$9.99</p>
+            </a>
+          </p>
+        </div>
+
+        <div class="box margin">
+          <h1>Organic Spinach</h1>
+          <p><a href="menubox.html">
+            I’m a dish description. Click “Edit Menu” to open the Restaurant
+            Menu editor and change my text.<p class="padding">$9.99</p>
+            </a>
+          </p>
+        </div>
+
+        <div class="box margin">
+          <h1>Roasted Vegetable</h1>
+          <p><a href="menubox.html">
+            I’m a dish description. Click “Edit Menu” to open the Restaurant
+            Menu editor and change my text.<p class="padding">$9.99</p>
+            </a>
+          </p>
+        </div>
+
+        <div class="box margin">
+          <h1>Smoked Salmon Toasts</h1>
+          <p><a href="menubox.html">
+            I’m a dish description. Click “Edit Menu” to open the Restaurant
+            Menu editor and change my text.<p class="padding">$9.99</p>
+            </a>
+          </p>
+        </div>
+
+        <div class="box margin">
+          <h1>Crispy Calamari</h1>
+          <p><a href="menubox.html">
+            I’m a dish description. Click “Edit Menu” to open the Restaurant
+            Menu editor and change my text.<p class="padding">$9.99</p>
+            </a>
+          </p>
+        </div>
+        </div>
+       
+        <h1 class="margin2">Main course</h1>
+ <div class="grid">
+            <div class="box margin">
+          <h1>Pumpkin Ravioli</h1>
+          <p><a href="menubox.html">
+            I’m a dish description. Click “Edit Menu” to open the Restaurant
+            Menu editor and change my text.<p class="padding">$9.99</p>
+            </a>
+          </p>
+        </div>
+
+            <div class="box margin">
+          <h1>Foue-Onion Tart</h1>
+          <p><a href="menubox.html">
+            I’m a dish description. Click “Edit Menu” to open the Restaurant
+            Menu editor and change my text.<p class="padding">$9.99</p>
+            </a>
+          </p>
+        </div>
+
+            <div class="box margin">
+          <h1>Moules Mariniere</h1>
+          <p><a href="menubox.html">
+            I’m a dish description. Click “Edit Menu” to open the Restaurant
+            Menu editor and change my text.<p class="padding">$9.99</p>
+            </a>
+          </p>
+        </div>
+
+            <div class="box margin">
+          <h1>Rosemary Chiken</h1>
+          <p><a href="menubox.html">
+            I’m a dish description. Click “Edit Menu” to open the Restaurant
+            Menu editor and change my text.<p class="padding">$9.99</p>
+            </a>
+          </p>
+        </div>
+
+            <div class="box margin">
+          <h1>Salmon in Black Butter</h1>
+          <p><a href="menubox.html">
+            I’m a dish description. Click “Edit Menu” to open the Restaurant
+            Menu editor and change my text.<p class="padding">$9.99</p>
+            </a>
+          </p>
+        </div>
+
+            <div class="box margin">
+          <h1>Melina's Burger</h1>
+          <p><a href="menubox.html">
+            I’m a dish description. Click “Edit Menu” to open the Restaurant
+            Menu editor and change my text.<p class="padding">$9.99</p>
+            </a>
+          </p>
+        </div>
+           </div>
+    </div>
+   <footer>
+      <div class="footer-container">
+        <div class="footer-box">
+        <p>Mon - Fri: 11am - 10pm</p>
+          <p>Sat - Sun: 11am - 12am</p>
+        </div>
+
+        <div class="footer-box">
+       
+          <p>500 Terry Francine Street</p>
+          <p>San Fransisco, CA  94158</p>
+         
+        </div>
+
+        <div class="footer-box">
+          <h3>Follow Us</h3>
+        <p>Intsta</p>
+         <p>Facebook</p>
+         <p>Twitter</p>
+        </div>
+      </div>
+      <p class="copy">© 2026 Foodie Restaurant</p>
+    </footer>
+   
+    
+  </body>
+</html>
